@@ -1,18 +1,22 @@
 easypki
 ======
 
+> this is an installable fork of google/easypki
+> this have required a new package name because of a fork
+> `github.com/mainnika/easypki`
+
 Easy Public Key Infrastructure intends to provide most of the components needed
 to manage a PKI, so you can either use the API in your automation, or use the
 CLI.
 
 # API
 
-[![godoc](https://godoc.org/github.com/google/easypki?status.svg)](https://godoc.org/github.com/google/easypki)
+[![godoc](https://godoc.org/github.com/mainnika/easypki?status.svg)](https://godoc.org/github.com/mainnika/easypki)
 
 For the latest API:
 
 ```
-import "gopkg.in/google/easypki.v1"
+import "gopkg.in/mainnika/easypki.v1"
 ```
 
 ## Legacy API
@@ -24,7 +28,7 @@ If you used the legacy API that was only writing files to disk, a tag has been
 applied so you can still import it:
 
 ```
-import "gopkg.in/google/easypki.v0"
+import "gopkg.in/mainnika/easypki.v0"
 ```
 
 # CLI
@@ -34,7 +38,7 @@ compatible with openssl, so you are not restrained.
 
 ```
 # Get the CLI:
-go get github.com/google/easypki/cmd/easypki
+go install github.com/mainnika/easypki/cmd/easypki@latest
 
 
 # You can also pass the following through arguments if you do not want to use

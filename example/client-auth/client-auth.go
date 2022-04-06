@@ -12,9 +12,9 @@ import (
 
 	"github.com/boltdb/bolt"
 	"github.com/go-yaml/yaml"
-	"github.com/google/easypki/pkg/certificate"
-	"github.com/google/easypki/pkg/easypki"
-	"github.com/google/easypki/pkg/store"
+	"github.com/mainnika/easypki/pkg/certificate"
+	"github.com/mainnika/easypki/pkg/easypki"
+	"github.com/mainnika/easypki/pkg/store"
 )
 
 func main() {
