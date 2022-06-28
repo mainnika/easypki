@@ -11,24 +11,8 @@ CLI.
 
 # API
 
-[![godoc](https://godoc.org/github.com/mainnika/easypki?status.svg)](https://godoc.org/github.com/mainnika/easypki)
-
-For the latest API:
-
 ```
-import "gopkg.in/mainnika/easypki.v1"
-```
-
-## Legacy API
-
-API below pkg/ has been rewritten to allow extensibility in terms of PKI
-storage and better readability.
-
-If you used the legacy API that was only writing files to disk, a tag has been
-applied so you can still import it:
-
-```
-import "gopkg.in/mainnika/easypki.v0"
+import "github.com/mainnika/easypki"
 ```
 
 # CLI
@@ -38,7 +22,7 @@ compatible with openssl, so you are not restrained.
 
 ```
 # Get the CLI:
-go install github.com/mainnika/easypki/cmd/easypki@latest
+GO111MODULE=on go get github.com/mainnika/easypki/cmd/easypki@v22.06.28
 
 
 # You can also pass the following through arguments if you do not want to use
